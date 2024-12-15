@@ -138,18 +138,18 @@ input,button{
 
 /* Completed */
 .tasks__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .tasks__text:not(.tasks__text--new) {
-  display: none
+  display: none;
 }
 
 .editMode .tasks__text {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .editMode .tasks__label {
