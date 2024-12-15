@@ -17,17 +17,17 @@
         <label class="tasks__caption tasks__label--new" for="new-task">Add Item</label>
         <div class="tasks__wrapper">
           <input class="tasks__text tasks__text--new task" id="new-task" type="text">
-          <button class="tasks__btn btn">Add</button>
+          <button class="tasks__btn btn" id="new-task-button">Add</button>
         </div>
       </p>
       <h3 class="tasks__caption">Todo</h3>
-      <ul class="tasks__list" id="incompleteTasks">
+      <ul class="tasks__list" id="incomplete-tasks">
         <li class="tasks__item">
           <input class="tasks__checkbox" type="checkbox">
           <label class="tasks__label task">Pay Bills</label>
-          <input class="tasks__text" type="text">
-          <button class="tasks__btn tasks__btn--edit btn">Edit</button>
-          <button class="tasks__btn tasks__btn--delete btn">
+          <input class="tasks__text task" type="text">
+          <button class="tasks__btn btn btn--edit">Edit</button>
+          <button class="tasks__btn btn btn--delete">
             <img class="tasks__icon" src="./remove.svg">
           </button>
         </li>
@@ -35,20 +35,20 @@
           <input class="tasks__checkbox" type="checkbox">
           <label class="tasks__label task">Go Shopping</label>
           <input class="tasks__text task" type="text" value="Go Shopping">
-          <button class="tasks__btn tasks__btn--edit btn">Save</button>
-          <button class="tasks__btn tasks__btn--delete btn">
+          <button class="tasks__btn btn btn--edit">Save</button>
+          <button class="tasks__btn btn btn--delete">
             <img class="tasks__icon" src="./remove.svg">
           </button>
         </li>
       </ul>
       <h3 class="tasks__caption">Completed</h3>
-      <ul class="tasks__list" id="completed-tasks">
+      <ul class="tasks__list tasks__list--completed" id="completed-tasks">
         <li class="tasks__item">
           <input class="tasks__checkbox" type="checkbox" checked>
-          <label class="tasks__label tasks__label--completed task">See the Doctor</label>
-          <input class="tasks__text" type="text" class="task">
-          <button class="tasks__btn btn" class="edit">Edit</button>
-          <button class="tasks__btn tasks__btn--delete btn">
+          <label class="tasks__label task">See the Doctor</label>
+          <input class="tasks__text task" type="text" class="task">
+          <button class="tasks__btn btn btn--edit">Edit</button>
+          <button class="tasks__btn btn btn--delete">
             <img class="tasks__icon" src="./remove.svg">
           </button>
         </li>

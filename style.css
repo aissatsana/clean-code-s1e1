@@ -139,7 +139,7 @@ button {
 }
 
 /* Completed */
-.tasks__label--completed {
+.tasks__list--completed .tasks__label {
   text-decoration: line-through;
   color: #888888;
 }
