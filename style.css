@@ -1,7 +1,7 @@
 /* Basic Style */
 body {
   background-color: #f8f8f8;
-  color: #333;
+  color: #333333;
   font-family: Lato, sans-serif;
 }
 
@@ -60,7 +60,7 @@ button {
 .btn {
   background: none;
   border: 0px;
-  color: #888;
+  color: #888888;
   font-size: 15px;
   width: 60px;
   font-family: Lato, sans-serif;
@@ -68,15 +68,15 @@ button {
 }
 
 .btn:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 /* Heading */
 .tasks__caption {
-  color: #333;
+  color: #333333;
   font-weight: 700;
   font-size: 15px;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #333333;
   padding: 30px 0 10px;
   margin: 0;
   text-transform: uppercase;
@@ -88,22 +88,22 @@ button {
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
+  border: 1px solid #dddddd;
   background: #FFF;
   border-radius: 6px;
   font-family: Lato, sans-serif;
-  color: #888;
+  color: #888888;
 }
 
 .tasks__text:focus {
-  color: #333;
+  color: #333333;
 }
 
 /* Task list */
 .tasks__item {
   overflow: hidden;
   padding: 20px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eeeeee;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -141,7 +141,7 @@ button {
 /* Completed */
 .tasks__label {
   text-decoration: line-through;
-  color: #888;
+  color: #888888;
 }
 
 /* Edit Task */
