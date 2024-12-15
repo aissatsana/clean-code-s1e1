@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,9 +17,7 @@
     <main class="tasks">
       <h1 class="visually-hidden">Todo App</h1>
       <section class="tasks__section tasks__section--add" id="topSectionForAddingElementToList">
-        <label class="tasks__label" for="new-task">
-          <h2 class="tasks__caption">Add Item</h2>
-        </label>
+        <h2 class="tasks__caption">Add Item</h2>
         <div class="tasks__wrapper">
           <input class="tasks__input tasks__input" id="new-task" type="text">
           <button class="tasks__btn btn" id="new-task-button">Add</button>
@@ -54,7 +52,7 @@
           <li class="tasks__item">
             <input class="tasks__checkbox" type="checkbox" checked>
             <label class="tasks__label">See the Doctor</label>
-            <input class="tasks__input" type="text" class="task">
+            <input class="tasks__input" type="text">
             <button class="tasks__btn btn btn--edit">Edit</button>
             <button class="tasks__btn btn btn--delete">
                 <img class="tasks__icon" src="./remove.svg">
@@ -65,4 +63,4 @@
     </main>
     <script src="app.js"></script>
   </body>
-</html
+</html>
